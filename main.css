@@ -1,0 +1,177 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+/*------------------------
+		HEADER
+------------------------*/
+
+header{
+	overflow: hidden;
+	position: fixed;
+	top: 0 !important;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid lightgrey;
+	text-align: center;
+	background-color: #fff;
+}
+
+header .headerLeft{
+	float: left;
+	margin-left: 3%;
+	margin-top: 0.7%;
+}
+
+.headerLeft > #iconOptions{
+	margin-bottom: 5%;
+}
+
+.headerLeft > h1{
+	display: inline-block;
+}
+
+header .searchBar{
+	float: left;
+	display: inline-block;
+	margin-top: 1%;
+	margin-left: 4%;
+}
+
+.searchBar * input[type=submit]{
+	background: url(img/lupa.png);
+	background-repeat: no-repeat;
+	background-position: 50% 90%;
+	background-color: lightgrey;
+	float: right;
+    height: 30px;
+    width: 55px;
+    margin-left: 10px;
+    border: 0;
+    border: 1px solid grey;
+
+}
+
+header .headerRight{
+	float: right;
+	margin-top: 1%;
+	margin-right: 3%;
+}
+
+#iconUser{
+	width: 30px;
+}
+
+/*------------------------
+	MAIN - ARITCLE
+------------------------*/
+
+
+main{
+	overflow: hidden;
+	width: 85%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+article{
+	float: left;
+	width: 78%;
+}
+
+#videoInfoBox{
+	background-color: #fff;
+	width: 100%;
+	min-height: 150px;
+	margin-top: 1%;
+	border: 1px solid lightgrey;
+}
+
+#videoInfoBox > h2{
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 1.5%;
+	font-size: 20px;
+}
+
+#videoUser{
+	overflow: hidden;
+	margin-left: 1.5%;
+}
+
+#videoUser > img{
+	width: 50px;
+	float: left;
+}
+
+#videoUser > h3{
+	margin-left: 55px;
+}
+
+#videoUser > input{
+	background-color: red;
+	width: 110px;
+	height: 25px;
+	padding-left: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border:0;
+	color: white;
+}
+
+#videoInfoBox > #videoOptions{
+	margin-top: 15px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	border-top: 1px solid grey;
+	font-size: 15px;
+}
+
+#videoOptions > span{
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 5px;
+	color: grey;
+}
+
+#videoOptions * img{
+	width: 20px;
+	margin-top: 3px;
+}
+
+
+/*
+#videoUser > #videoSubs{
+	display: inline-block;
+	background-color: #fafafa;
+	width: 50px;
+	height: 25px;
+	border: 1px solid grey;
+	color: grey;
+	font-size: 13px;
+
+}
+*/
+
+/*------------------------
+	MAIN - ASIDE
+------------------------*/
+
+aside{
+	background-color: #fff;
+	float: right;
+	width: 21%;
+	height: 500px;
+	margin-left: 1%;
+	border:1px solid lightgrey;
+}
+
+
+
+
+
+
