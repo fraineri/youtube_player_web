@@ -73,14 +73,14 @@ header .headerRight{
 
 main{
 	overflow: hidden;
-	width: 85%;
+	width: 95%;
 	margin: auto;
 	margin-top: 60px;
 }
 
 article{
 	float: left;
-	width: 78%;
+	width: 70%;
 }
 
 #videoInfoBox{
@@ -143,7 +143,6 @@ article{
 	margin-top: 3px;
 }
 
-
 /*
 #videoUser > #videoSubs{
 	display: inline-block;
@@ -157,6 +156,93 @@ article{
 }
 */
 
+#videoDescription{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 1%;
+	border: 1px solid lightgrey;
+}
+
+#videoDescription > h2{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+#videoDescription > p{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#videoDescription > hr{
+	color: lightgrey;
+	margin-top: 30px;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+#videoDescription > a{
+	margin-left: 45%;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+}
+
+/*------------------------
+	MAIN - commentBox
+------------------------*/
+
+#commentBox{
+	background-color: #fff;
+	width: 100%;
+	padding: 3%;
+	margin-top: 2%;
+	border: 1px solid lightgrey;
+}
+
+#commentBox h4{
+	padding-bottom: 15px;
+}
+
+#commentBox #iconUser{
+	width:60px;
+}
+
+#commentBox textarea{
+	position: relative;
+	width: 90%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+
+	resize: none;
+}
+
+#commentBox select{
+	margin-top: 15px;
+}
+
+.contComment{
+	overflow: hidden;
+	margin-top: 20px;
+
+}
+
+.contComment .commentUserIcon{
+	float: left;
+	width: 60px;
+}
+
+.contComment h5{
+	margin-left: 70px;
+	font-weight: bold;
+	color: blue;
+}
+
+.contComment p{
+	margin-top: 5px;
+	margin-left: 70px;
+}
+
 /*------------------------
 	MAIN - ASIDE
 ------------------------*/
@@ -164,12 +250,39 @@ article{
 aside{
 	background-color: #fff;
 	float: right;
-	width: 21%;
-	height: 500px;
+	width: 29%;
 	margin-left: 1%;
 	border:1px solid lightgrey;
 }
 
+aside h4{
+	margin: 4%;
+	font-weight: bold;
+}
+
+aside .contRecoVideo{
+	overflow: hidden;
+	margin: 4%;
+}
+
+.contRecoVideo img{
+	float: left;
+}
+
+.contRecoVideo h5{
+	margin-left: 57%;
+}
+
+.contRecoVideo h6{
+	margin-left: 57%;
+	margin-top: 3%;
+	color: grey;
+}
+aside hr{
+	clear: both;
+	margin-top: 7%;
+	color: lightgrey;
+}
 
 
 
